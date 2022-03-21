@@ -1,0 +1,5 @@
+﻿  dsp_reader.c
+e:\engine\okayengine\private\utilites\dsp2vcproj\dsp_reader.c(22): warning C4047: функция: "int" отличается по уровням косвенного обращения от "void *"
+e:\engine\okayengine\private\utilites\dsp2vcproj\dsp_reader.c(22): warning C4024: memset: различные типы для формального и фактического параметров 2
+e:\engine\okayengine\private\utilites\dsp2vcproj\dsp_reader.c(121): warning C4133: =: несовместимые типы - из "target_name_t *" в "target_names_s *"
+  dsp2vcproj.vcxproj -> E:\ENGINE\OkayEngine\private\utilites\dsp2vcproj\Debug\dsp2vcproj.exe
