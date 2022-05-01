@@ -1,5 +1,5 @@
 ﻿//#pragma comment(linker, "/STACK:36777216")
-#include <stdio.h>
+#include "main.h"
 #include "dsp_reader.h"
 
 int main(int argc, char **argv)

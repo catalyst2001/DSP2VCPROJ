@@ -1,8 +1,5 @@
 #pragma once
-#include <stdio.h>
-#include <stdlib.h>
-#include <stdbool.h>
-#include <string.h>
+#include "main.h"
 
 //# Microsoft Developer Studio Project File - Name = "shaderlib" - Package Owner = <4>
 //# Microsoft Developer Studio Generated Build File, Format Version 6.00
@@ -78,19 +75,6 @@ typedef struct project_s {
 } project_t;
 static int c3 = sizeof(project_t);
 
-// 
-// For internal use only!
-// 
-#ifdef _DEBUG
-#define DP(x, ...) printf(x, __VA_ARGS__)
-#else
-#define DP(x, ...) (void)0
-#endif
-
-#define SKIP_JUNK_IN_LINE(line) if (line[0] == '\n') continue;
-
-#define NEW(t) (calloc(1, sizeof(t)))
-#define DEL(p) (free(p))
 #define BIND(last, next) \
 	(next)->p_lastlink = last;\
 	(last)->p_nextlink = next;

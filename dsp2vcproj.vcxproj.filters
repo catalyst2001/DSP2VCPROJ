@@ -24,5 +24,8 @@
     <ClInclude Include="micro_xml.h">
       <Filter>Исходные файлы</Filter>
     </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Исходные файлы</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
